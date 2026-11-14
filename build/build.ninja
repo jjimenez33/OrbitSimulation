@@ -36,35 +36,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Justin$ Jimenez/Desktop/EngineeringProjects/OrbitSimulation/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target my_app
+# Object build statements for EXECUTABLE target orbitSim
 
 
 #############################################
-# Order-only phony target for my_app
+# Order-only phony target for orbitSim
 
-build cmake_object_order_depends_target_my_app: phony || .
+build cmake_object_order_depends_target_orbitSim: phony || .
 
-build CMakeFiles/my_app.dir/main.cpp.obj: CXX_COMPILER__my_app_unscanned_ C$:/Users/Justin$ Jimenez/Desktop/EngineeringProjects/OrbitSimulation/main.cpp || cmake_object_order_depends_target_my_app
-  DEP_FILE = CMakeFiles\my_app.dir\main.cpp.obj.d
-  OBJECT_DIR = CMakeFiles\my_app.dir
-  OBJECT_FILE_DIR = CMakeFiles\my_app.dir
+build CMakeFiles/orbitSim.dir/main.cpp.obj: CXX_COMPILER__orbitSim_unscanned_ C$:/Users/Justin$ Jimenez/Desktop/EngineeringProjects/OrbitSimulation/main.cpp || cmake_object_order_depends_target_orbitSim
+  DEP_FILE = CMakeFiles\orbitSim.dir\main.cpp.obj.d
+  OBJECT_DIR = CMakeFiles\orbitSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\orbitSim.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target my_app
+# Link build statements for EXECUTABLE target orbitSim
 
 
 #############################################
-# Link the executable my_app.exe
+# Link the executable orbitSim.exe
 
-build my_app.exe: CXX_EXECUTABLE_LINKER__my_app_ CMakeFiles/my_app.dir/main.cpp.obj
+build orbitSim.exe: CXX_EXECUTABLE_LINKER__orbitSim_ CMakeFiles/orbitSim.dir/main.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\my_app.dir
+  OBJECT_DIR = CMakeFiles\orbitSim.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = my_app.exe
-  TARGET_IMPLIB = libmy_app.dll.a
-  TARGET_PDB = my_app.exe.dbg
+  TARGET_FILE = orbitSim.exe
+  TARGET_IMPLIB = liborbitSim.dll.a
+  TARGET_PDB = orbitSim.exe.dbg
 
 
 #############################################
@@ -92,7 +92,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build my_app: phony my_app.exe
+build orbitSim: phony orbitSim.exe
 
 # =============================================================================
 # Folder targets.
@@ -102,7 +102,7 @@ build my_app: phony my_app.exe
 #############################################
 # Folder: C:/Users/Justin Jimenez/Desktop/EngineeringProjects/OrbitSimulation/build
 
-build all: phony my_app.exe
+build all: phony orbitSim.exe
 
 # =============================================================================
 # Built-in targets
