@@ -46,7 +46,6 @@ build cmake_object_order_depends_target_my_app: phony || .
 
 build CMakeFiles/my_app.dir/main.cpp.obj: CXX_COMPILER__my_app_unscanned_ C$:/Users/Justin$ Jimenez/Desktop/EngineeringProjects/OrbitSimulation/main.cpp || cmake_object_order_depends_target_my_app
   DEP_FILE = CMakeFiles\my_app.dir\main.cpp.obj.d
-  FLAGS = -std=gnu++17
   OBJECT_DIR = CMakeFiles\my_app.dir
   OBJECT_FILE_DIR = CMakeFiles\my_app.dir
 
