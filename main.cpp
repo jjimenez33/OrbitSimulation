@@ -112,7 +112,7 @@ int main() {
 
     // Eccentricity
     string Eccentricity = line2.substr(26, 7);
-    cout << "Eccentricity: " << Eccentricity << '\n';
+    cout << "Eccentricity: " << "0." << Eccentricity << '\n';
 
     // Argument of perigee
     string argumentPerigee = line2.substr(34, 8);
